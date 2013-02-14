@@ -1,0 +1,75 @@
+/* Don't remove this rule */
+div#mmania_inbox_wrapper {
+  display:none;
+  margin:10px;
+  padding:5px;
+  background:white;
+}
+
+/* Menu CSS */
+div#mmania_menu {
+  padding:5px;
+}
+
+div#mmania_menu .avatar {
+  float:left;
+  padding:0;
+  margin:0;
+  display:inline;
+}
+
+span#mmania_welcome_message {
+  font-size:22px;
+  font-weight:bold;
+  padding-left:10px;
+  display:inline-block;
+}
+
+span.mmania_menu_item {
+  margin-right:5px;
+  padding-left:10px;
+  font-size:12px;
+}
+
+/* Compose CSS */
+div#mmania_compose_area {
+  margin:5px;
+  margin-top:10px;
+  padding:15px;
+  background:#EFEFEF;
+  border:1px solid #DDD;
+  border-radius:5px;
+}
+
+.mmania_compose_label {
+  display:inline-block;
+  width:20%;
+  vertical-align:top;
+}
+
+.mmania_compose_text {
+  width:60%;
+}
+
+#mmania_compose_body {
+  width:60%;
+  height:125px;
+}
+
+a#mmania_advanced_compose_link {
+  font-size:12px;
+}
+
+div.mmania_compose_spacer {
+  height:5px;
+}
+
+/* Inbox main CSS */
+
+/* Thread CSS */
+
+/* MISC */
+div.mmania_separator {
+  clear:both;
+  height:1px;
+}
