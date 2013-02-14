@@ -1,0 +1,1 @@
+<?php require(MMANIA_VIEWS_PATH.'/front/no_js.php'); ?><?php global $user_ID; ?><div id="mmania_page_wrapper">  <?php require(MMANIA_VIEWS_PATH.'/front/menu.php'); ?>  <div id="mmania_body_wrapper">    <?php require(MMANIA_VIEWS_PATH.'/front/bodies/'.$body_file); ?>  </div></div>

@@ -1,9 +1,14 @@
 /* Don't remove this rule */
-div#mmania_inbox_wrapper {
+div#mmania_page_wrapper {
   display:none;
   margin:10px;
   padding:5px;
   background:white;
+}
+
+div#mmania_body_wrapper {
+  padding:5px;
+  margin:0;
 }
 
 /* Menu CSS */
@@ -72,4 +77,19 @@ div.mmania_compose_spacer {
 div.mmania_separator {
   clear:both;
   height:1px;
+}
+
+div.mmania_separator_large {
+  clear:both;
+  height:15px;
+}
+
+.inputosaurus-container {
+  margin:0 5px 0 0 !important;
+  padding:0 3px !important;
+}
+
+.inputosaurus-container li {
+  margin:2px 2px 0 !important;
+  padding:2px 3px !important;
 }

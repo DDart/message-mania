@@ -124,7 +124,7 @@ if(!class_exists("MManiaDB"))
       }
     }
     
-    public function get_page_id()
+    public function get_plugin_page_id()
     {
       global $wpdb;
       
