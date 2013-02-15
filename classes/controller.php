@@ -71,7 +71,8 @@ if(!class_exists("MManiaController"))
     
     public static function enqueue_front_scripts()
     {
-      global $post, $mmania_db, $wp_scripts;
+      global $post, $mmania_db;
+      $wp_scripts = new WP_Scripts();
       $ui = $wp_scripts->query('jquery-ui-core');
       $url = "//ajax.googleapis.com/ajax/libs/jqueryui/{$ui->ver}/themes/smoothness/jquery-ui.css";
       
